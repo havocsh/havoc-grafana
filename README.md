@@ -1,2 +1,2 @@
 # havoc-grafana
-A custom Grafana build maintained by havoc.sh.
+Files used to build the skinned Grafana container used by the havoc.sh project server.
