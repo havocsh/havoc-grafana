@@ -128,7 +128,7 @@
               "type": "count"
             }
           ],
-          "query": "instruct_object=metasploit AND outcome=success",
+          "query": "task_type=metasploit AND outcome=success",
           "refId": "A",
           "timeField": "@timestamp"
         }
@@ -340,7 +340,7 @@
               "type": "count"
             }
           ],
-          "query": "instruct_object=metasploit",
+          "query": "task_type=metasploit",
           "refId": "A",
           "timeField": "@timestamp"
         }
@@ -433,7 +433,7 @@
               "type": "count"
             }
           ],
-          "query": "instruct_object=metasploit",
+          "query": "task_type=metasploit",
           "refId": "A",
           "timeField": "@timestamp"
         }
@@ -500,7 +500,7 @@
               "type": "count"
             }
           ],
-          "query": "instruct_object=metasploit",
+          "query": "task_type=metasploit",
           "refId": "A",
           "timeField": "@timestamp"
         }
@@ -619,7 +619,7 @@
               "type": "count"
             }
           ],
-          "query": "instruct_object=metasploit",
+          "query": "task_type=metasploit",
           "refId": "A",
           "timeField": "@timestamp"
         }
@@ -700,7 +700,7 @@
               "type": "count"
             }
           ],
-          "query": "instruct_object=nmap",
+          "query": "task_type=nmap",
           "refId": "A",
           "timeField": "@timestamp"
         }
@@ -817,7 +817,7 @@
               "type": "count"
             }
           ],
-          "query": "instruct_object=nmap",
+          "query": "task_type=nmap",
           "refId": "A",
           "timeField": "@timestamp"
         }
@@ -876,7 +876,7 @@
               "type": "raw_data"
             }
           ],
-          "query": "instruct_object=nmap",
+          "query": "task_type=nmap",
           "refId": "A",
           "timeField": "@timestamp"
         }
@@ -933,7 +933,7 @@
               "instruct_args.target": 46,
               "instruct_command": 11,
               "instruct_instance": 12,
-              "instruct_object": 13,
+              "task_type": 13,
               "ip_protocol": 4,
               "outcome": 1,
               "target_ip": 3,
